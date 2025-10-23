@@ -1,0 +1,43 @@
+# Análisis Sísmico LEQ - Archivos ignorados por Git
+
+# Archivos de salida temporales
+*.png
+*.jpg
+*.pdf
+deconvolucion_*.txt
+analisis_*.png
+
+# Archivos de Julia
+Manifest.toml
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+deps/deps.jl
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.temp
+*~
+
+# Directorios de trabajo
+tmp/
+temp/
+output/
+results/
+
+# Archivos de configuración local
+config_local.jl
+parametros_locales.jl
+
+# Datos sísmicos específicos de usuario (opcional)
+# Descomenta las siguientes líneas si quieres ignorar datos específicos
+# sismo_*.txt
+# datos_privados/
+
+# Archivos de respaldo automático
+*_backup.*
+*.bak

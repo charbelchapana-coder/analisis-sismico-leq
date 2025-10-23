@@ -1,0 +1,12 @@
+# Configuración inicial de Git
+# Ejecuta estos comandos una sola vez en tu computadora
+
+# 1. Configurar tu identidad (reemplaza con tus datos)
+git config --global user.name "Tu Nombre Completo"
+git config --global user.email "tu.email@gmail.com"
+
+# 2. Configurar editor por defecto (opcional)
+git config --global core.editor "code"
+
+# 3. Verificar configuración
+git config --list
